@@ -3,7 +3,7 @@ First Official Project for the April 5th 2021 Revature Big Data Training Batch. 
 Listed in each section are the Hive queries with their corresponding results
 
 
-###Initial Database Documentation
+### Initial Database Documentation
 ```
 0: jdbc:hive2://localhost:10000> show databases;
 +----------------+
@@ -112,7 +112,7 @@ Listed in each section are the Hive queries with their corresponding results
 
 
 
-##Problem One
+## Problem One
 
 	//Total Number of Customers Everywhere
 ```
@@ -151,7 +151,7 @@ Listed in each section are the Hive queries with their corresponding results
 ```
 
 
-##Problem Two
+## Problem Two
 
 	//Most Consumed Beverage in Branch1
 ```
@@ -289,7 +289,7 @@ Listed in each section are the Hive queries with their corresponding results
 [51 Rows]
 ```
 
-##Problem Four
+## Problem Four
 	// For Each Question in Problem Three, create a Partition and View, as well as an Index
 
 	//Regarding List of Beverages Sold at Branches 10, 8 and 1
@@ -373,7 +373,7 @@ No rows affected (0.095 seconds)
 
 
 
-##Problem Five
+## Problem Five
 
 	//Demonstrate adding a note or comment to a table
 ```
@@ -412,7 +412,7 @@ show tblproperties cons_count_all;
 ```
 
 
-##Problem Six
+## Problem Six
 
 	// Remove Branch 5 from the Full Table Set in Problem One 
 	// Recall in Problem One we create a table called p6_target	
